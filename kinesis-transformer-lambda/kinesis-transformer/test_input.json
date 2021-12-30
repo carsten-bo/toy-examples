@@ -1,0 +1,23 @@
+{
+    "invocationId": "56489578-3dcf-4133-b3d6-71f809afe754",
+    "deliveryStreamArn": "arn:aws:firehose:eu-central-1:996509876322:deliverystream/MEETUP-RSVP-2-REDSHIFT",
+    "sourceKinesisStreamArn": "",
+    "region": "eu-central-1",
+    "records": [{
+            "recordId": "49625301466384005780215574870739994275421993606741753858000000",
+            "approximateArrivalTimestamp": 1640792401173,
+            "data": "eyJyc3ZwX2lkIjogMTg5ODQ4Mjk1NCwgInRzIjogMTY0MDc5MjQwMDg0NiwgImV2ZW50X3RpbWUiOiAxNjQxMDMxMjAwMDAwLCAibmFtZSI6ICJNaWEiLCAicmVzcG9uc2UiOiAieWVzIiwgImdyb3VwX2NpdHkiOiAiTG9uZG9uIiwgImdyb3VwX2NvdW50cnkiOiAiZ2IiLCAiZ3JvdXBfbmFtZSI6ICJLdW5kYWxpbmkgQ2x1YiAmIG1vcmUiLCAidmVudWVfbmFtZSI6ICJPbmxpbmUgZXZlbnQifQ=="
+        },
+        {
+            "recordId": "49625301466384005780215574870804067343861568953001181186000000",
+            "approximateArrivalTimestamp": 1640792401213,
+            "data": "eyJyc3ZwX2lkIjogMTg5ODQ4MjkzMywgInRzIjogMTY0MDc5MjM3OTAwMCwgImV2ZW50X3RpbWUiOiAxNjQxMjYzNDAwMDAwLCAibmFtZSI6ICJBbm5hTWFyaWFoIE5hdSIsICJyZXNwb25zZSI6ICJ5ZXMiLCAiZ3JvdXBfY2l0eSI6ICJBc2hsYW5kIiwgImdyb3VwX2NvdW50cnkiOiAidXMiLCAiZ3JvdXBfbmFtZSI6ICJXb21lbidzIERydW1taW5nIENpcmNsZSIsICJ2ZW51ZV9uYW1lIjogIlRhbGVudCBMaWJyYXJ5In0="
+        },
+        {
+            "recordId": "49625301466384005780215574870858469005744227265862959106000000",
+            "approximateArrivalTimestamp": 1640792401253,
+            "data": "eyJyc3ZwX2lkIjogMTg5ODQ4Mjk1NSwgInRzIjogMTY0MDc5MjQwMTA3MSwgImV2ZW50X3RpbWUiOiAxNjQxMTYzNTAwMDAwLCAibmFtZSI6ICJDdXJ0IEZhbGxpbiIsICJyZXNwb25zZSI6ICJ5ZXMiLCAiZ3JvdXBfY2l0eSI6ICJMb3MgQW5nZWxlcyIsICJncm91cF9jb3VudHJ5IjogInVzIiwgImdyb3VwX25hbWUiOiAiV2VzdHNpZGUgSW50ZXJuYXRpb25hbCBTb2NjZXIgIFBpY2t1cCBpbiBwbGF5YSB2aXN0YSIsICJ2ZW51ZV9uYW1lIjogIlBsYXlhIFZpc3RhIFNvY2NlciBGaWVsZCBvZmYgTGluY29sbiBhbmQgQmx1ZmYgQ3JlZWsgRHIuIn0="
+        }
+    ]
+}
+
