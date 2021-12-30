@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: stg_sales
+    description: "sales"
+    columns:
+      - name: salesid
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_users
+    description: "users"
+    columns:
+      - name: userid
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
