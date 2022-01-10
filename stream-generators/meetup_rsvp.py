@@ -4,9 +4,14 @@ import boto3
 import decorators
 
 
-@decorators.firehose(
-    stream_name="MEETUP-RSVP-2-REDSHIFT",
-    client=boto3.client("firehose", region_name="eu-central-1"),
+# @decorators.kinesis_firehose(
+#     stream_name="MEETUP-RSVP-2-REDSHIFT",
+#     client=boto3.client("firehose", region_name="eu-central-1"),
+# )
+@decorators.kinesis_data_stream(
+    stream_name="test-data-stream",
+    client=boto3.client("kinesis", region_name="eu-central-1"),
+    PartitionKey="group_country",
 )
 @decorators.console
 def publish(data_point):
